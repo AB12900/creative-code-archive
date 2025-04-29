@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h1>SIMPLE CALCULATOR</h1>
+        <form method = "post" name = "expression">
+            <input size ="20"type="text" name="left"/>
+            <select name="operation">
+                <option value="plus">+</option>
+                <option value="multiply">*</option>
+                <option value="division">/</option>
+                <option value="minus">-</option>
+                <option value="modulo">%</option>
+                <option value="rand">rand</option>
+                <option value="square root">√</option>
+                <option value="power">^</option>
+            </select>
+            <input size ="20"type="text" name="right"/> = 
+            <span></span>
+            <input type="button" value="calculate" onclick = "calc()"/>
+        </form>
+        <script src="calxculator.js"></script>
+    </body>
+</html>
